@@ -335,3 +335,37 @@ header {
   border-bottom: 1px solid transparent;
   color: #555;
 }
+
+/* --------------------------------------------------------- */
+/*TESTIMONIALS*/
+/* --------------------------------------------------------- */
+
+.section-testimonials {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../images/back-customers.jpg");
+  color: #fff;
+}
+
+.customer figure {
+  display: inline-block;
+}
+
+.customer figure img {
+  width: 80px;
+  height: auto;
+  border-radius: 50%;
+}
+
+.customer span {
+  display: block;
+  margin-bottom: 14px;
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.customer p {
+  line-height: 150%;
+  font-size: 1.15rem;
+  font-style: italic;
+  margin-bottom: 25px;
+}
