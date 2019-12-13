@@ -348,31 +348,7 @@ header {
   background-attachment: fixed;
   color: #fff;
 }
-/*
-.customer figure {
-  display: inline-block;
-}
 
-.customer figure img {
-  width: 80px;
-  height: auto;
-  border-radius: 50%;
-}
-
-.customer span {
-  display: block;
-  margin-bottom: 14px;
-  font-size: 1.8rem;
-  font-weight: bold;
-}
-
-.customer p {
-  line-height: 150%;
-  font-size: 1.15rem;
-  font-style: italic;
-  margin-bottom: 25px;
-}
-*/
 blockquote {
   padding: 2%;
   font-size: 1.15rem;
@@ -397,4 +373,63 @@ cite img {
   margin-right: 10px;
   border-radius: 50%;
   vertical-align: middle;
+}
+
+/* --------------------------------------------------------- */
+/*PLANS*/
+/* --------------------------------------------------------- */
+
+.section-plans {
+  background-color: #f4f4f4;
+}
+
+.plan-box {
+  background-color: #fff;
+  border-radius: 5px;
+  width: 90%;
+  margin-left: 5%;
+  box-shadow: 0 2px 2px #e3e3e3;
+}
+
+.plan-box div {
+  padding: 15px;
+  border-bottom: 1px solid #e8e8e8;
+}
+
+.plan-box div:first-child {
+  background-color: #fcfcfc;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.plan-box div:last-child {
+  text-align: center;
+  border: none;
+}
+
+.plan-price {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.plan-price span {
+  font-size: 3rem;
+  color: #e67e22;
+}
+
+.plan-box ul {
+  list-style: none;
+}
+
+.plan-box ul li {
+  padding: 5px 0;
+}
+
+.plan-box .icon-small {
+  margin-right: 8px;
+}
+
+.plan-box .btn btn-full,
+.plan-box .btn btn-ghost {
+  margin: 0 auto;
 }
