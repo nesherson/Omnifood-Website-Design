@@ -433,3 +433,30 @@ cite img {
 .plan-box .btn btn-ghost {
   margin: 0 auto;
 }
+
+/* --------------------------------------------------------- */
+/*FORM*/
+/* --------------------------------------------------------- */
+
+.contact-form {
+  width: 60%;
+  margin: 0 auto;
+}
+
+input[type="text"],
+input[type="email"],
+select,
+textarea {
+  width: 100%;
+  padding: 7px;
+  border: 1px solid #555;
+  border-radius: 3px;
+}
+
+textarea {
+  height: 100px;
+}
+
+input[type="checkbox"] {
+  margin: 10px 5px 10px 0;
+}
