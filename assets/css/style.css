@@ -460,3 +460,74 @@ textarea {
 input[type="checkbox"] {
   margin: 10px 5px 10px 0;
 }
+
+/* --------------------------------------------------------- */
+/*FOOTER*/
+/* --------------------------------------------------------- */
+
+footer {
+  background-color: #333;
+  padding: 45px;
+  font-size: 0.8rem;
+}
+
+.footer-nav {
+  list-style: none;
+  float: left;
+}
+
+.social-links {
+  list-style: none;
+  float: right;
+}
+
+footer .logo-facebook,
+footer .logo-twitter,
+footer .logo-instagram {
+  transition: color 0.3s;
+}
+
+footer .logo-facebook:hover {
+  color: #3b5998;
+}
+
+footer .logo-twitter:hover {
+  color: #00aced;
+}
+
+footer .logo-instagram:hover {
+  color: #e1306c;
+}
+
+.social-links li a {
+  font-size: 1.7em;
+}
+
+.footer-nav li,
+.social-links li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.social-links li:last-child {
+  margin: 0px;
+}
+
+.footer-nav li a,
+.social-links li a {
+  color: #888;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.footer-nav li a:hover,
+.social-links li a:hover {
+  color: #e6e6e6;
+}
+
+footer p {
+  color: #888;
+  text-align: center;
+  font-size: 0.9em;
+  margin-top: 20px;
+}
