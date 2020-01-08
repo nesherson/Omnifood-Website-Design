@@ -68,9 +68,42 @@
     width: 100%;
     margin: 0 0 4% 0;
   }
+  /*.main-nav {
+    display: none;
+  }*/
+  .mobile-nav-icon {
+    display: inline-block;
+  }
+
   .main-nav {
     display: none;
+    float: left;
+    margin-top: 25px;
   }
+
+  .main-nav li {
+    display: block;
+    margin-top: 13px;
+  }
+
+  .main-nav li a,
+  .main-nav li a:hover {
+    border: 0;
+  }
+
+  .sticky-nav .main-nav {
+    margin-top: 5px;
+    margin-bottom: 10px;
+  }
+
+  .sticky-nav .mobile-nav-icon {
+    margin-top: 15px;
+  }
+
+  .sticky-nav .mobile-nav-icon ion-icon {
+    color: #555;
+  }
+
   .long-copy {
     width: 100%;
     margin-left: 0;
